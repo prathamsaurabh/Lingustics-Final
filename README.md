@@ -1,0 +1,1 @@
+The Python implementation of the K-clustering algorithm, the Word2Vec vectorization scripts, PCA visualization code, and the full set of extracted lexical data are accessible at the GitHub repository associated with this project.
