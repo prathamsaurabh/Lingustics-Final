@@ -1,52 +1,61 @@
-🧠 Lexical Clustering and Semantic Interpretation in Supreme Court Opinions
+### Author: Pratham Saurabh
 
-This repository contains all code, data, and generated outputs used in the computational linguistic analysis of Supreme Court cases. The goal of this study is to investigate whether word clustering reveals underlying semantic themes that facilitate interpretation of complex legal texts.
+---
 
-📂 Repository Contents
-🔹 1. Preprocessing
+## Project Overview
+This repository contains all computational scripts, data outputs, and visualization files used to analyze semantic clustering in Supreme Court opinions.
 
-Scripts for extracting and normalizing text from court documents.
+The goal of this project is to investigate whether lexical distribution reveals underlying thematic structure in legal discourse.
 
-🔹 2. Word Vectorization
+---
 
-Python files implementing Word2Vec embeddings.
+## Method Summary
 
-🔹 3. K-Clustering Algorithm
+### 🔹 Word Vectorization
+- implemented using Word2Vec  
+- similar linguistic context produces similar vectors  
 
-Clustering scripts using Scikit-Learn to group vectors based on semantic proximity.
+### 🔹 K-Clustering
+- implemented using Scikit-Learn  
+- clusters vectors by semantic proximity  
 
-🔹 4. PCA Visualization
+### 🔹 PCA Visualization
+- dimensionality reduction  
+- allows interpretation of clusters in 2D form  
 
-Tools for dimensional reduction and 2D plotting of cluster relationships.
+---
 
-🔹 5. Output Graphs and Results
+## Goals of Study
+- Identify semantic domains within legal opinions  
+- Analyze syntactic and morphological properties of clustered terms  
+- Evaluate whether interpretive meaning can be derived without reading entire documents  
 
-Generated figures from PCA projections and clustering experiments.
+---
 
-🛠️ Technologies Used
+## Technologies Used
+- Python  
+- Word2Vec  
+- Scikit-Learn  
+- PCA  
 
-Python
+---
 
-Word2Vec
+## Results Summary
+- Clustered lexical items reflect thematic domains  
+- Semantic groupings align with legal structure  
+- Dense clusters correspond to specialized legal domains  
 
-Scikit-Learn
+---
 
-PCA Dimensional Reduction
-
-📄 Purpose of Study
-
-This research examines the semantic, syntactic, and phonetic implications of lexical clustering in legal discourse, with emphasis on:
-
-Underlying conceptual domains
-
-Semantic grouping
-
-Morphological and syntactic patterns
-
-Interpretation of meaning without full document reading
-
-👨‍💻 Author
-
-Pratham Saurabh
-Georgia Institute of Technology
+## Author
+Pratham Saurabh  
+Georgia Institute of Technology  
 LING 3100 — Computational Linguistics Project
+
+---
+
+## Contact
+📧 Email: psaurabh6@gatech.edu
+
+
+
